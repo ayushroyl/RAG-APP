@@ -11,7 +11,7 @@ with open("RAG_App\policy_text.txt", "r", encoding="utf-8") as f:
     pdf_text = f.read()
 
 # Test data
-test_data = dataset = [
+test_data = [
     {"Query": "What does the policy booklet say about making a claim?", "Response": "The booklet provides a detailed process on how to make a claim, including necessary contact numbers (0345 878 6261 for claims, 0800 328 9150 for windscreen claims, and 0345 246 2408 for motor legal helpline). It also lists the information required to process a claim, such as personal details, policy number, car registration number, and a description of the loss or damage."},
     {"Query": "How much will you pay if my car is damaged?", "Response": "If your car is damaged and covered under the policy, the insurance will pay the cost of repairing or replacing the car up to its UK market value at the time of the claim."},
     {"Query": "Who is covered to drive other cars under this policy?", "Response": "The certificate of motor insurance will indicate who is covered to drive other cars. Only injury to third parties or damage to their property is covered, not damage to the car being driven."},
